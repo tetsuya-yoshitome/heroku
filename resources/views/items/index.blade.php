@@ -47,7 +47,7 @@
                             <td>{{ $item->name }}</td>
                             <td>{{ $item->type }}</td>
                             <td>{{ $item->price }}</td>
-                            <td><img width="100" class="base" src="data:image/png;base64,<?= $item->image ?>"></td>
+                            <td><img width="150" class="base" src="data:image/png;base64,<?= $item->image ?>"></td>
                             <td>{{ $item->detail }}</td>
                             <td>{{ $item->user_id }}</td>
                             <td>{{ $item->user_name }}</td>

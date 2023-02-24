@@ -31,7 +31,6 @@
                 <div class="col text-center">
                     <table class="table table-bordered">
                         <thead>
-                        <th>商品ID</th>
                         <th>商品名</th>
                         <th>種別</th>
                         <th>商品価格</th>
@@ -43,7 +42,6 @@
                         </thead>
                         @foreach ($items as $item)
                         <tr>
-                            <td>{{ $item->id }}</td>
                             <td>{{ $item->name }}</td>
                             <td>{{ $item->type }}</td>
                             <td>{{ $item->price }}</td>
